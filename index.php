@@ -125,6 +125,24 @@
 
 
 </table>
+<form action="form.php" method = "POST">
+    <label for="firstName"> Your name: </label> <input type="text" id="firstName" name="firstName" placeholder="Input Your name"> <br>
+    <label for="rating"> Please select rating </label>
+    <select name="rating" id="rating">
+        <option> 1 </option>
+        <option> 2 </option>
+        <option> 3 </option>
+        <option> 4 </option>
+        <option> 5 </option>
+    </select> <br>
+    Select Your Friend: <input type="radio" value="Murka" name="friend"> Murka | <input type="radio" value="Vasjka" name="friend"> Vasjka |
+    <input type="radio" value="Mashka" name="friend"> Mashka <br>
+    Please enter Your comments: <br>
+    <textarea name="comments" rows="5" cols="50"></textarea> <br>
+    <input type="reset" name="reset" value="Cancel">
+    <input type="submit" name="submit" value="Send">
+
+</form>
 
 
 </body>
