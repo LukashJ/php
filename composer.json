@@ -1,0 +1,13 @@
+{
+    "name": "sergejs/php",
+    "description": "javaguru",
+    "type": "project",
+    "license": "MIT",
+    "minimum-stability": "stable",
+    "require": {},
+    "autoload": {
+    "psr-4": {
+        "php\\": ""
+    }
+}
+}
